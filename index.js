@@ -35,6 +35,8 @@ var app4 = new Vue({
   }
 })
 
+
+//Updating the state in our app without touch the DOM. Dom manipulations are handled by Vue, and the code you write is focused on the underlying logic
 var app5 = new Vue({
   el: '#app-5',
   data: {
@@ -46,5 +48,14 @@ var app5 = new Vue({
     }
   }
 })
+
+//Two way binding between form input and app state is easier
+var app6 = new Vue({
+  el: '#app-6',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
+
 
 
